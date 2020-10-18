@@ -17,25 +17,25 @@ const App = () => (
       </div>
     </div>
     <div className='ed-grid m-grid-3'>
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
-      <Curso />
+      <Curso 
+        title='React desde cero 1'
+        image='https://edteam-media.s3.amazonaws.com/courses/medium/e737f2e3-92b3-400e-8d82-1b19e0277012.png'
+        price='50 USD'
+        />
+            <Curso 
+        title='React desde cero 2'
+        image='https://edteam-media.s3.amazonaws.com/courses/medium/e737f2e3-92b3-400e-8d82-1b19e0277012.png'
+        price='50 USD'
+        />
+            <Curso 
+        title='React desde cero 3'
+        image='https://edteam-media.s3.amazonaws.com/courses/medium/e737f2e3-92b3-400e-8d82-1b19e0277012.png'
+        price='50 USD'
+        />
+            <Curso 
+ 
+        />
+      
     </div>
   </>
 )
