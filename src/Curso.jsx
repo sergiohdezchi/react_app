@@ -28,7 +28,7 @@ const Curso = props => (
             </div>
         </div>
         <div className ="s-main-center">
-            <a className ="button--ghost-alert button--tiny" href="#">{ `$ ${ props.price }` }</a>
+            <a className ="button--ghost-alert button--tiny" href="http://www.google.com">{ `$ ${ props.price }` }</a>
         </div>
         </div>
     </article>
